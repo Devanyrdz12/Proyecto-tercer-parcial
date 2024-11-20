@@ -5,7 +5,7 @@ let keys = {
 };
 
  var nameList = [
-                'Time','Ready'
+                'Timer','Ready'
             ];
         
             var finalName = ""
