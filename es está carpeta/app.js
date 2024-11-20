@@ -8,7 +8,7 @@ let keys = {
                 'Timer','Ready'
             ];
         
-            var finalName = ""
+            var finalName = "2"
         
             function generate() {
                var finalName = nameList[Math.floor( Math.random() * nameList.length )];
