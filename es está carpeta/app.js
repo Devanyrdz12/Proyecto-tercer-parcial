@@ -9,8 +9,8 @@ let currentGuess = [];
 
 var nameList = [
   'Timer',
-  'Script', 'Writer',
-  'Zombie'];
+  'jcode', 'Write',
+  'tomas'];
 function generate() {
 var finalName = nameList[Math.floor(Math.random() * nameList.length)];
 
