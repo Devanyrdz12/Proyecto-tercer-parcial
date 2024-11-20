@@ -7,7 +7,17 @@ let keys = {
 let guesses = [];
 let currentGuess = [];
 
-const SecretWord = 'jcode';
+var nameList = [
+  'Time',
+  'Script', 'Writer',
+  'Zombie'];
+function generate() {
+var finalName = nameList[Math.floor(Math.random() * nameList.length)];
+
+
+
+
+const SecretWord = finalName ;
 const NumberOfGuesses = 6;
 const Correct = 'correct';
 const Found = 'found';
