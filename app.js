@@ -4,20 +4,7 @@ let keys = {
   'enter': '', 'z': '', 'x': '', 'c': '', 'v': '', 'b': '', 'n': '', 'm': '', '⌫': ''
 };
 
-let guesses = [];
-let currentGuess = [];
-
-var nameList = [
-  'Timer',
-  'jcode', 'Write',
-  'tomas'];
-function generate() {
-var finalName = nameList[Math.floor(Math.random() * nameList.length)];
-
-
-
-
-const SecretWord = finalName ;
+const SecretWord = "doing","","","" ;
 const NumberOfGuesses = 6;
 const Correct = 'correct';
 const Found = 'found';
