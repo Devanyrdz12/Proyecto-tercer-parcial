@@ -8,7 +8,7 @@ let guesses = [];
 let currentGuess = [];
 
 var nameList = [
-  'Time',
+  'Timer',
   'Script', 'Writer',
   'Zombie'];
 function generate() {
