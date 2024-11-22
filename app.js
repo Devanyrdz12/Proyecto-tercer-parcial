@@ -4,7 +4,7 @@ let keys = {
   'enter': '', 'z': '', 'x': '', 'c': '', 'v': '', 'b': '', 'n': '', 'm': '', '⌫': ''
 };
 
-const SecretWord = "doing","","","" ;
+const SecretWord = "doing","going","being","dying" ;
 const NumberOfGuesses = 6;
 const Correct = 'correct';
 const Found = 'found';
