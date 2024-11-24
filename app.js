@@ -60,8 +60,8 @@ function enter() {
   }
   //TODO check a dictionary for a valid word
 
-  currentGuess.forEach((keyGuess, index) => {
-    if (SecretWord.charAt(index) == keyGuess.key) {
+  currentGuess.forEach((keyGuess, game1) => {
+    if (SecretWord.charAt(game1) == keyGuess.key) {
       keyGuess.result = Correct
     } else if (SecretWord.includes(keyGuess.key)) {
       keyGuess.result = Found
@@ -90,9 +90,9 @@ function updateKeyboard() {
 }
 
 function updateCurrentGuess(guessed = false) {
-  let index = guesses.length;
+  let game1 = guesses.length;
   for (let i = 0; i < SecretWord.length; i++) {
-    let guessGrid = document.getElementById(`${index}${i}`);
+    let guessGrid = document.getElementById(`${game1}${i}`);
     if (currentGuess[i]) {
       guessGrid.innerHTML = currentGuess[i].key;
     } else {
