@@ -28,15 +28,7 @@ transform: translate(-12px, -12px);
 .btn:hover::before{
     transform: translate(12px, 12px);  
 }
-/*
-.grad{background: rgb(55,54,101);
-    background: linear-gradient(142deg, rgba(55,54,101,1) 0%, rgba(9,9,121,0.8379726890756303) 50%, rgba(114,113,147,1) 100%);}
-    
-.bg{background: rgba(134, 133, 220, 0.67);
-background: linear-gradient(142deg, rgba(116,115,204,0.87718837535014) 42%, rgba(89, 85, 213, 0.56) 58%);
-background-size: auto;}
 
-*/
 body{
     background: url(bg.jpg);
 }
