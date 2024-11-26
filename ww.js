@@ -8,4 +8,10 @@ let comprobar = document.getElementById("comprobar");
 
 let txtResultado = document.getElementById("resultado");
 
-let posDisponible = ["","","","",]
+let posDisponible = ["","","","",];
+
+function agregaOpciones(){
+palabras_juego.forEach() 
+}
+agregarOpciones();
+
